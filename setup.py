@@ -17,6 +17,7 @@ setuptools.setup(
     license=LICENSE,
     url=URL,
     include_package_data=True,
+    packages=setuptools.find_packages(),
     install_requires=REQUIREMENTS,
     classifiers=["Programming Language :: Python :: 3"],
 )
